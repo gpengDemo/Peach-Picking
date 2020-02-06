@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661077BD23A72054001CD114 /* GameStarterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661077BC23A72054001CD114 /* GameStarterViewController.swift */; };
+		661077BF23A720BA001CD114 /* GameOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661077BE23A720BA001CD114 /* GameOverViewController.swift */; };
+		661077C123A720CB001CD114 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661077C023A720CB001CD114 /* GameViewController.swift */; };
+		661077C323A72649001CD114 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661077C223A72649001CD114 /* Common.swift */; };
+		661077C523A7284E001CD114 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661077C423A7284E001CD114 /* GameCell.swift */; };
+		661077CA23A75047001CD114 /* bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 661077C723A75046001CD114 /* bg.mp3 */; };
+		661077CB23A75047001CD114 /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 661077C823A75046001CD114 /* error.mp3 */; };
+		661077CC23A75047001CD114 /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 661077C923A75046001CD114 /* success.mp3 */; };
+		6650AF8923A8D7E1001B7CE5 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6650AF8823A8D7E1001B7CE5 /* ResultViewController.swift */; };
+		66A98027239E151C00DC5DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A98026239E151C00DC5DCA /* AppDelegate.swift */; };
+		66A9802B239E151C00DC5DCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A9802A239E151C00DC5DCA /* ViewController.swift */; };
+		66A9802E239E151C00DC5DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A9802C239E151C00DC5DCA /* Main.storyboard */; };
+		66A98030239E151F00DC5DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A9802F239E151F00DC5DCA /* Assets.xcassets */; };
+		66A98033239E151F00DC5DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66A98031239E151F00DC5DCA /* LaunchScreen.storyboard */; };
+		66A9803C239E1D0A00DC5DCA /* nyala.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 66A9803B239E1D0900DC5DCA /* nyala.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		661077BC23A72054001CD114 /* GameStarterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStarterViewController.swift; sourceTree = "<group>"; };
+		661077BE23A720BA001CD114 /* GameOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverViewController.swift; sourceTree = "<group>"; };
+		661077C023A720CB001CD114 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		661077C223A72649001CD114 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		661077C423A7284E001CD114 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
+		661077C723A75046001CD114 /* bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg.mp3; sourceTree = "<group>"; };
+		661077C823A75046001CD114 /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = error.mp3; sourceTree = "<group>"; };
+		661077C923A75046001CD114 /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
+		6650AF8823A8D7E1001B7CE5 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		66A98023239E151C00DC5DCA /* Peach Picking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Peach Picking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66A98026239E151C00DC5DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66A9802A239E151C00DC5DCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66A9802D239E151C00DC5DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66A9802F239E151F00DC5DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66A98032239E151F00DC5DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66A98034239E151F00DC5DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66A9803B239E1D0900DC5DCA /* nyala.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = nyala.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66A98020239E151C00DC5DCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		661077C623A75046001CD114 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				661077C723A75046001CD114 /* bg.mp3 */,
+				661077C823A75046001CD114 /* error.mp3 */,
+				661077C923A75046001CD114 /* success.mp3 */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
+		66A9801A239E151C00DC5DCA = {
+			isa = PBXGroup;
+			children = (
+				66A98025239E151C00DC5DCA /* PeachPicking */,
+				66A98024239E151C00DC5DCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66A98024239E151C00DC5DCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66A98023239E151C00DC5DCA /* Peach Picking.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66A98025239E151C00DC5DCA /* PeachPicking */ = {
+			isa = PBXGroup;
+			children = (
+				661077C223A72649001CD114 /* Common.swift */,
+				661077C623A75046001CD114 /* media */,
+				66EDDDCE23A20DDD001A6E1C /* game */,
+				66A9803A239E1D0900DC5DCA /* fonts */,
+				66A98026239E151C00DC5DCA /* AppDelegate.swift */,
+				66A9802A239E151C00DC5DCA /* ViewController.swift */,
+				66A9802C239E151C00DC5DCA /* Main.storyboard */,
+				66A9802F239E151F00DC5DCA /* Assets.xcassets */,
+				66A98031239E151F00DC5DCA /* LaunchScreen.storyboard */,
+				66A98034239E151F00DC5DCA /* Info.plist */,
+				6650AF8823A8D7E1001B7CE5 /* ResultViewController.swift */,
+			);
+			path = PeachPicking;
+			sourceTree = "<group>";
+		};
+		66A9803A239E1D0900DC5DCA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				66A9803B239E1D0900DC5DCA /* nyala.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		66EDDDCE23A20DDD001A6E1C /* game */ = {
+			isa = PBXGroup;
+			children = (
+				661077BC23A72054001CD114 /* GameStarterViewController.swift */,
+				661077BE23A720BA001CD114 /* GameOverViewController.swift */,
+				661077C023A720CB001CD114 /* GameViewController.swift */,
+				661077C423A7284E001CD114 /* GameCell.swift */,
+			);
+			path = game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66A98022239E151C00DC5DCA /* PeachPicking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66A98037239E151F00DC5DCA /* Build configuration list for PBXNativeTarget "PeachPicking" */;
+			buildPhases = (
+				66A9801F239E151C00DC5DCA /* Sources */,
+				66A98020239E151C00DC5DCA /* Frameworks */,
+				66A98021239E151C00DC5DCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeachPicking;
+			productName = PeachPicking;
+			productReference = 66A98023239E151C00DC5DCA /* Peach Picking.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66A9801B239E151C00DC5DCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = PengGu;
+				TargetAttributes = {
+					66A98022239E151C00DC5DCA = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 66A9801E239E151C00DC5DCA /* Build configuration list for PBXProject "PeachPicking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66A9801A239E151C00DC5DCA;
+			productRefGroup = 66A98024239E151C00DC5DCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66A98022239E151C00DC5DCA /* PeachPicking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66A98021239E151C00DC5DCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661077CA23A75047001CD114 /* bg.mp3 in Resources */,
+				66A98033239E151F00DC5DCA /* LaunchScreen.storyboard in Resources */,
+				66A98030239E151F00DC5DCA /* Assets.xcassets in Resources */,
+				66A9803C239E1D0A00DC5DCA /* nyala.ttf in Resources */,
+				661077CC23A75047001CD114 /* success.mp3 in Resources */,
+				66A9802E239E151C00DC5DCA /* Main.storyboard in Resources */,
+				661077CB23A75047001CD114 /* error.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66A9801F239E151C00DC5DCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661077C123A720CB001CD114 /* GameViewController.swift in Sources */,
+				661077BF23A720BA001CD114 /* GameOverViewController.swift in Sources */,
+				661077BD23A72054001CD114 /* GameStarterViewController.swift in Sources */,
+				6650AF8923A8D7E1001B7CE5 /* ResultViewController.swift in Sources */,
+				66A9802B239E151C00DC5DCA /* ViewController.swift in Sources */,
+				661077C323A72649001CD114 /* Common.swift in Sources */,
+				66A98027239E151C00DC5DCA /* AppDelegate.swift in Sources */,
+				661077C523A7284E001CD114 /* GameCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66A9802C239E151C00DC5DCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A9802D239E151C00DC5DCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66A98031239E151F00DC5DCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66A98032239E151F00DC5DCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66A98035239E151F00DC5DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66A98036239E151F00DC5DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66A98038239E151F00DC5DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = XQL7T3D472;
+				INFOPLIST_FILE = PeachPicking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PeachPicking;
+				PRODUCT_NAME = "Peach Picking";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		66A98039239E151F00DC5DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = XQL7T3D472;
+				INFOPLIST_FILE = PeachPicking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.PeachPicking;
+				PRODUCT_NAME = "Peach Picking";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66A9801E239E151C00DC5DCA /* Build configuration list for PBXProject "PeachPicking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A98035239E151F00DC5DCA /* Debug */,
+				66A98036239E151F00DC5DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66A98037239E151F00DC5DCA /* Build configuration list for PBXNativeTarget "PeachPicking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A98038239E151F00DC5DCA /* Debug */,
+				66A98039239E151F00DC5DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66A9801B239E151C00DC5DCA /* Project object */;
+}
